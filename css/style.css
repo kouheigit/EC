@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+body {
+	background-color: #f5f5f5;
+    /*	color: #333333;文字の色*/
+        font-size 15px;/*文字サイズ*/
+	line-height: 2;/*bodyタグの行間*/
+       
+}
+
+#index {/*indexの表示設定*/
+       background-image:url(../gazouimg/isu.jpg);/*背景画像を設定*/
+       background-repeat: no-repeat;
+        background-position: right top;
+       /* background-attachment: fixed;
+        background-size: 70% auto;*/
+}
+
+
+h1 {  /*h1の表示設定*/
+ font-size: 150px;/*h1のフォントサイズ*/
+ line-height: 1;
+
+}
+
+
+
+
+p,h1,h2,h3,h4,h5,h6 {
+	margin-top: 0;/*p要素とh要素には余白が設定されてるので解除する*/
+	
+}
+
+
+ul { 
+	margin:0;
+	padding: 0;
+}
+
+p { /*pタグの表示設計*/
+ margin-top: -30px;
+ margin-left: 70px;
+}
+
+.global-nav { /*テスト用に使用、関係ない*/
+	float: right;/*global-navの塊を右に回す*/
+	margin-top: 60px;
+}
+
+.global-nav li{/*テスト用に使用関係ない、global-navのliにだけかける*/
+	margin:0 20px;
+	float: left;
+	font-size: 20px;
+	list-style: none;/*黒点をなくす*/
+	font-family: 'Bitter', serif;
+}
+
+
+/*ボタンのcss*/
+a.cp_btn {
+	margin-left: 600px;
+	margin-top: 70px;
+	display: block;
+	position: relative;
+	width: 160px;
+	padding: 0.8em;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #fff;
+	border:1px solid #000080;
+	background: #000080;
+	overflow: hidden;
+	z-index: 1 !important;
+}
+a.cp_btn:after {
+	content:"";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 0;
+	width: 100%;
+	background : #fff;
+	opacity: 0;
+	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	transition: 0.3s;
+	z-index: -1;
+}
+a.cp_btn:hover {
+	color: #da3c41;
+}
+a.cp_btn:hover:after {
+	height: 250%;
+	opacity: 1;
+}
+a.cp_btn:active:after {
+	height: 350%;
+	opacity: 1;
+}
+/*ボタンのcss終了*/

@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding:0;
+	background-color: #cccccc;
+	font-size: 15px;/*文字の大きさ*/
+	line-height:2;/*行間*/       
+    }	
+    
+    p,h1,h2,h3,h4,h5,h6 {
+	    margin-top: 0;/*ブラウザ設定を解除する*/
+    }
+    ul{    
+	    margin: 0;/*ulの余白を無くした*/
+	    padding 0;/*ulの余白を無くした（その２）*/
+      }
+    
+    /*
+     a { 
+	 color: #0000cd;
+	 text-decoration:none;
+      }
+   
+     a:visited {
+	     color: #00bfff
+	    }
+
+     a:hover {
+           text-decoration: underline;
+     }
+    
+*/
+   
+    .global-nav {
+	    float: right;/*ulタグを右側へ移動させる*/
+	    margin-top: 190px;/*メニューの上下*/
+	   }
+    .global-nav li{
+              float: left;
+	      margin: 0 65px;
+	      font-size: 20px;
+	      list-style: none;
+    }
+    /*--ここからbody--*/
+   
+    #index {
+	    background-image:url(../gazouimg/head.jpg);
+	    background-repeat: no-repeat;
+	    background-position center top;
+	    background-attachment:fixed;
+	    background-size; cover;
+	    background-size: 100% auto;
+
+    }
+    
+    #wrap {
+           clear: both;
+    /*     background-color: #ffffff;*/
+    /*     margin-top: 220px;*/
+	   background-color:#efe6e6;
+           margin-top: 200px;/* 改変前*/
+         /* padding:400px 0;/*　改変前*/
+	 padding:1000px 0; /* 改変後*/
+    }
+
+footer{ /*PHP部分の設定箇所*/
+ padding-left: 150px;
+ margin-top:60px;/*上から60px分下げる*/
+}
+
+#calls{
+ margin-top:-890px;
+ padding-left:130px;
+  
+}
+
+
+/*--ボタンの効果始まり--*/
+
+/*--ボタンのデザイン--*/
+.btn.type02{
+width: 100%;
+max-width: 140px;
+padding: 15px 10px;
+display: inline-block;
+text-align: center;
+letter-spacing: 0.1em;
+color: #fff;
+background-color: #25089c;
+border-bottom: 4px solid #170a4a;
+border-radius: 5px;
+text-decoration: none;
+}
+
+/*商品一覧見出しのデザインcss*/
+
+.box21{
+    padding-left: 100px;
+}
+.box22{
+     padding-left: 30px;
+    padding: 0.3em 1em;
+    margin: 5em  0;
+    background: #f4f4f4;
+    border-left: solid 16px #5bb7ae;
+    width: 1050px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+.box22 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+
+
+
+/*--ボタンのデザイン--*/
+.btn.type02{
+width: 100%;
+max-width: 340px;
+padding: 10px 30px;
+display: inline-block;
+text-align: center;
+letter-spacing: 0.1em;
+color: #fff;
+background-color: #25089c;
+border-bottom: 4px solid #170a4a;
+border-radius: 5px;
+text-decoration: none;
+}
+
+/*--ボタンのホバー効果--*/
+.btn.type02 {
+ /* border-radius: 50%;*/
+  transition: all 0.05s ease 0s;
+}
+.btn.type02:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+
+/*--ボタンデザイン終了--*/

@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/*メイン画面商品一覧画面の調整用CSS*/
+.box1 {
+  display: inline-block;
+  text-align: center;
+   }
+
+ figure{
+   text-align:center;
+    }
+
+  figcaption{
+   color:black;font:20px arial;
+     }
+
+  figure.gazo-box {
+    float: left;
+    padding-right: 18px;
+    }
+
+   figure/* img*/ {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+figure:hover /* img*/ {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+
+
+}
+.normal-box4{
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #b3e5fc;
+  border: solid 3px #29b6f6;
+}
+
+.normal-box p{
+  margin: 0;
+  padding: 0;
+}
+
+

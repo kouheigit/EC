@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+h1 {
+  margin-top:-950px;/*商品ページ<h1>の上下位置*/
+  position:absolute;left:140px;/*商品ページ<h1>左右ポジション*/
+  font-family:'Bitter',serif;
+  font-size:36px;
+  border-bottom:1px solid; 
+}
+
+#searchposition {
+    position:  absolute;  
+    padding-left: 900px;
+    margin-top:350px; 
+}
+
+#phppotision {
+    position: absolute;
+    margin-top:-830px;
+    padding-left:130px;
+}
+
+#search {
+	-webkit-transition-duration: 400ms;
+	-webkit-transition-property: width, background;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 400ms;
+	-moz-transition-property: width, background;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 400ms;
+	-o-transition-property: width, background;
+	-o-transition-timing-function: ease;
+	width: 172px;
+}
+#search:focus {
+	background-color: #f9f9f9;
+	width: 300px;
+}
+a{
+  margin-top: 0;
+}
+
+.drawer-menu li{
+  line-height: 0.9em
+}
+
+#kounyuid {
+  position: absolute;
+    margin-top:-770px;
+    padding-left:130px;
+
+}
+
+#kounyuid h4{
+position: absolute;
+white-space: nowrap;/*繰り返し無効*/
+margin-top:-520px;
+padding-left:650px;
+font-size:30px;
+}
+
+#kounyuid h5{
+position: absolute;
+white-space: nowrap;/*繰り返し無効*/
+margin-top:-420px;
+padding-left:650px;
+font-size:30px;
+color:red;
+}
+
+#kosuu{
+position: absolute;
+margin-top:-220px;
+padding-left:650px;
+}
+
+.namae{
+position: absolute;
+white-space: nowrap;
+margin-top: -375px;
+padding-left:650px;
+font-size:25px;
+}
+
+.nedan{
+position: absolute;
+white-space: nowrap;
+margin-top: -350px;
+padding-left:651px;
+font-size:25px;
+}
+
+.kosuu{
+position: absolute;
+white-space: nowrap;
+margin-top: -320px;
+padding-left:650px;
+font-size:25px;
+}
+
+.sum{
+position: absolute;
+white-space: nowrap;
+margin-top: -290px;
+padding-left:650px;
+font-size:30px;
+color:red;
+}
+
+.textbox{
+position: absolute;
+white-space: nowrap;
+margin-top:-1690px;
+padding-left:779px;
+font-size:30px;
+width:400px;
+}
+
+.submitbox{
+position: absolute;
+white-space: nowrap;
+margin-top:30px;
+padding-left:779px;
+font-size:30px;
+}
+
+.submitbox {
+  display       : inline-block;
+  border-radius : 23%;          /* 角丸       */
+  font-size     : 16pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 14px 12px;   /* 余白       */
+  background    : #222ce8;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #222ce8;    /* 枠の指定 */
+}
+.submitbox:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #222ce8;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+    
+
+.texteffect {
+    padding: 1rem;
+    border-radius: .25rem;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+　  font-family: Helvetica Neue,Helvetica,Arial,Liberation Sans,Roboto,Noto,sans-serif;
+    font-size: .875rem;
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1.72;
+    color: #4b4b4b;
+    outline: none;
+    width: 100%;
+    min-width: 7rem;
+    outline-offset: 0;
+}
+
+.texteffect:focus{
+    background: #fff;
+    border-color: #1497ff;
+}
+
+.button1 {
+  display       : inline-block;
+  border-radius : 23%;          /* 角丸       */
+  font-size     : 16pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 14px 12px;   /* 余白       */
+  background    : #222ce8;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #222ce8;    /* 枠の指定 */
+}
+.button1:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #222ce8;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
